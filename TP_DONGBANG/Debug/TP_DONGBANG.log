@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+e:\포트폴리오\project\02.동방홍마향\tp_dongbang\tp_dongbang\stdafx.h(31): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory

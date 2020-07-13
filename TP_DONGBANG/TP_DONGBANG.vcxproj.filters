@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{b109e78f-ef0e-4a4d-8973-cd197c6494d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{01234926-0667-4593-8d6c-521f1899881a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Intro">
+      <UniqueIdentifier>{70e81d98-6cbb-4323-b980-8b8048c287f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Title">
+      <UniqueIdentifier>{6af8fc4d-1165-45f7-a37a-4a784d3547db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.Stage">
+      <UniqueIdentifier>{72e9c152-25cb-43aa-a110-64f1675f14be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Ending">
+      <UniqueIdentifier>{17373791-2c9c-4365-b585-e8aaceb48e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01_1.Select">
+      <UniqueIdentifier>{927e4045-1b61-4a6a-8d90-683b5c964bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{fd5a911a-de9f-495a-b9f7-868af4cbc1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.TextureLoadMgr">
+      <UniqueIdentifier>{3927e5c7-1394-4aa8-8056-3eaa6db635d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\01.SceneMgr">
+      <UniqueIdentifier>{5b70d8b3-f88a-42ac-b840-f8a81b379d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.KeyMgr">
+      <UniqueIdentifier>{dfb9dc80-bfa5-44da-8000-016c7e4a8df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\03.ObjMgr">
+      <UniqueIdentifier>{8026e2c4-fd8f-4870-b117-020fc09634bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.Factory">
+      <UniqueIdentifier>{386f43f0-9df7-414e-b3a4-d10ef27c4af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.SoundMgr">
+      <UniqueIdentifier>{b2441883-600b-4732-9ee9-772b0cde6099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\06.Device">
+      <UniqueIdentifier>{9f22e3a1-d3f0-4221-8627-b9420113969a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.Texture">
+      <UniqueIdentifier>{acdffaa1-8ede-4693-b2be-032ade5df027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.Texture\00.SingleTexture">
+      <UniqueIdentifier>{3f7599ec-a01f-4d34-b0d7-c205c5510667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.Texture\01.MultiTexture">
+      <UniqueIdentifier>{3eb706a5-e6d1-4a8d-bf26-f038a76e2210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\08.TextureMgr">
+      <UniqueIdentifier>{f5e70003-baca-4397-b2a2-30cd24015afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\09.CollisionMgr">
+      <UniqueIdentifier>{7a621fc5-c56f-4899-999c-7db1cf8b8938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{bbef27b1-45cd-4ca4-8f64-5405e20cc2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{e864ec0a-35fe-4056-88a3-da895812f244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="01.Object">
+      <UniqueIdentifier>{0d47d024-eeee-453b-9a6d-cb00d45e8a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Player">
+      <UniqueIdentifier>{584f34b0-7d28-4e92-bf5b-7b695b7cc74e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Player\Bullet">
+      <UniqueIdentifier>{11f7dc64-1953-4788-b797-382e75ae692a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Player\SubWeapon">
+      <UniqueIdentifier>{9b89edd5-c827-4ed9-b559-6a7938aab1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Player\Effect">
+      <UniqueIdentifier>{b9399bbf-1ec2-45a6-a445-534df6a37419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Monster">
+      <UniqueIdentifier>{e95ddf8c-2507-4f37-afd6-1cfdd41c81cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Monster\00.Bullet">
+      <UniqueIdentifier>{bdd1b388-1a03-47dd-a7c9-8266f23268cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Monster\00.Bullet\00.NomalMonsterBullet">
+      <UniqueIdentifier>{64ccacf2-f107-4648-9679-2e6fc976c3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Monster\01.NomalMonster">
+      <UniqueIdentifier>{bb651d97-a632-4d48-8955-e39d1a45b7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Monster\02.BossMonster">
+      <UniqueIdentifier>{3f642e74-5a78-4ecc-9f6d-792c92eb79b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Effect">
+      <UniqueIdentifier>{b1578277-8071-4a0d-a518-4384a6474013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Item">
+      <UniqueIdentifier>{8bff25e6-7cd6-4b82-8b9c-8d21188e7aba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>02.Scene\00.Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>02.Scene\01.Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02.Scene\02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>02.Scene\03.Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>02.Scene\01_1.Select</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoadMgr.cpp">
+      <Filter>97.Manager\00.TextureLoadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>97.Manager\01.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>97.Manager\02.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>97.Manager\03.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>97.Manager\05.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>97.Manager\06.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>97.Manager\07.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>97.Manager\07.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>97.Manager\07.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>97.Manager\08.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>97.Manager\09.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TP_DONGBANG.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Object\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>01.Object\00.Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SubWeapon.cpp">
+      <Filter>01.Object\00.Player\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBulletEffect.cpp">
+      <Filter>01.Object\00.Player\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIllust.cpp">
+      <Filter>01.Object\00.Player\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="NomalMonsterBullet.cpp">
+      <Filter>01.Object\01.Monster\00.Bullet\00.NomalMonsterBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="NomalMonster.cpp">
+      <Filter>01.Object\01.Monster\01.NomalMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonster.cpp">
+      <Filter>01.Object\01.Monster\02.BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadEffect.cpp">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectPower.cpp">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectPower2.cpp">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallEffect.cpp">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01.Object\03.Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>02.Scene\00.Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>02.Scene\01.Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02.Scene\02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>02.Scene\03.Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>02.Scene\01_1.Select</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoadMgr.h">
+      <Filter>97.Manager\00.TextureLoadMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>97.Manager\01.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>97.Manager\02.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>97.Manager\03.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>97.Manager\04.Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>97.Manager\05.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>97.Manager\06.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>97.Manager\07.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>97.Manager\07.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>97.Manager\07.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>97.Manager\08.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>97.Manager\09.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TP_DONGBANG.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Object\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>01.Object\00.Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SubWeapon.h">
+      <Filter>01.Object\00.Player\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBulletEffect.h">
+      <Filter>01.Object\00.Player\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIllust.h">
+      <Filter>01.Object\00.Player\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="NomalMonsterBullet.h">
+      <Filter>01.Object\01.Monster\00.Bullet\00.NomalMonsterBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="NomalMonster.h">
+      <Filter>01.Object\01.Monster\01.NomalMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonster.h">
+      <Filter>01.Object\01.Monster\02.BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadEffect.h">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectPower.h">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectPower2.h">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallEffect.h">
+      <Filter>01.Object\02.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01.Object\03.Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="TP_DONGBANG.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TP_DONGBANG.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
